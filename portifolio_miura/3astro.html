@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASTROWORLD</title>
+    <link rel="shortcut icon" href="/assets/lamelo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+    <style>
+        @charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+
+    background-image: linear-gradient(to bottom, #8eace7 40%, #608af6 100%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+#burger {
+    background-color: #28347a;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    width: 90vw;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: #7196db;
+}
+
+
+header {
+    text-align: center;
+    background-color: #779ce7;
+    color: rgb(199, 225, 248);
+    height: 65px;
+}
+
+h1 {
+    color: #d7e5e5;
+    font-size: 50px;
+}
+
+menu {
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    font-size: 17px;
+    color: #2e5ea6;
+    height: auto;
+}
+
+article {
+    padding: 3px;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align:center;
+    font-size: 23px;
+    margin: 3%;
+    margin-inline-end: auto;
+}
+
+
+a {
+    color: rgb(10, 77, 159);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(164, 201, 245);
+    text-decoration: none;
+}
+
+footer {
+    background-color: none;
+    color: #2b34aa;
+    font-size: 11px;
+    height: 10px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+#imgmain {
+    width: 399px;
+    height: 390px;
+    margin-left: 5px;
+}
+
+#iconenav {
+    width: 20px;
+    height: 20px;
+}
+
+
+    </style>
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>ASTROWORLD</h1>
+    </header>
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="1travis.html">travis</a></li>
+            <li><a href="2rodeo.html">rodeo</a></li>
+            <li><a href="3astro.html">astroworld</a></li>
+            <li><a href="4utopia.html">utopia</a></li>
+        </ul>
+    </menu>
+
+    <article>
+        <!-- <h2>titulo</h2> -->
+
+
+        <main>
+            <div class="container">
+                <img src="/assets/astro.jpg" alt="" id="imgmain"></a>
+                <!-- <img src="/assets/cara.jpg" alt="" id="imgmain"></a> -->
+
+
+
+                <p>
+                    "Astroworld" é o terceiro álbum de estúdio de Travis Scott, lançado em agosto de 2018. O título faz
+                    referência ao antigo parque de diversões de Houston, Texas, e reflete a nostalgia e a conexão do
+                    artista com sua cidade natal. O álbum é uma fusão única de hip-hop, trap e elementos psicodélicos,
+                    criando uma experiência sonora imersiva.
+
+                    Com faixas como "Sicko Mode", que se tornou um dos maiores sucessos da carreira de Scott,
+                    "Astroworld" é marcado por suas transições dinâmicas e produção meticulosa. O álbum apresenta
+                    colaborações com artistas renomados, incluindo Drake, Frank Ocean e Kid Cudi, o que acrescenta
+                    diversidade ao projeto.
+
+                    Liricamente, Travis aborda temas como fama, excessos, e a busca por escapismo, refletindo sobre sua
+                    jornada e as complexidades da vida contemporânea. A estética do álbum, com suas capas vibrantes e
+                    visuais envolventes, complementa a música e contribui para a construção de um universo único que
+                    cativa os ouvintes.
+
+                    "Astroworld" foi amplamente aclamado pela crítica e consolidou Travis Scott como um dos principais
+                    nomes da cena musical atual, mostrando sua capacidade de inovar e criar um legado duradouro na
+                    indústria.
+                </p>
+            </div>
+    </article>
+
+    </main>
+
+
+    <footer>@2024 - Gabriel</footer>
+
+    <script src="/assets/js/script.js">
+
+    </script>
+
+</body>
+
+</html>

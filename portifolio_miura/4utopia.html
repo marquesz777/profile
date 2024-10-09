@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTOPIA</title>
+    <link rel="shortcut icon" href="/assets/lamelo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+     <style>
+        @charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+
+    background-image: linear-gradient(to bottom, #8eace7 40%, #608af6 100%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+#burger {
+    background-color: #28347a;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    width: 90vw;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color: #7196db;
+}
+
+
+header {
+    text-align: center;
+    background-color: #779ce7;
+    color: rgb(199, 225, 248);
+    height: 65px;
+}
+
+h1 {
+    color: #d7e5e5;
+    font-size: 50px;
+}
+
+menu {
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    font-size: 17px;
+    color: #2e5ea6;
+    height: auto;
+}
+
+article {
+    padding: 3px;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align:center;
+    font-size: 23px;
+    margin: 3%;
+    margin-inline-end: auto;
+}
+
+
+a {
+    color: rgb(10, 77, 159);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(164, 201, 245);
+    text-decoration: none;
+}
+
+footer {
+    background-color: none;
+    color: #2b34aa;
+    font-size: 11px;
+    height: 10px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+#imgmain {
+    width: 399px;
+    height: 390px;
+    margin-left: 5px;
+}
+
+#iconenav {
+    width: 20px;
+    height: 20px;
+}
+
+
+     </style>
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>UTOPIA</h1>
+    </header>
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="1travis.html">travis</a></li>
+            <li><a href="2rodeo.html">rodeo</a></li>
+            <li><a href="3astro.html">astroworld</a></li>
+            <li><a href="4utopia.html">utopia</a></li>
+        </ul>
+    </menu>
+
+    <article>
+        <!-- <h2>titulo</h2> -->
+
+
+        <main>
+            <div class="container">
+                <img src="/assets/2utopia.jpg" alt="" id="imgmain"></a>
+                <!-- <img src="/assets/cara.jpg" alt="" id="imgmain"></a> -->
+
+
+
+                <p>
+                    "Utopia" é o aguardado álbum de Travis Scott, lançado em julho de 2023. Continuando a evolução
+                    musical do artista, "Utopia" é um projeto que reflete suas experiências pessoais, explorando temas
+                    de amor, fama, e as complexidades da vida moderna. O álbum é caracterizado por uma produção rica e
+                    atmosférica, mantendo a assinatura única de Travis, que combina elementos de hip-hop, R&B e
+                    influências psicodélicas.
+
+                    O projeto apresenta uma variedade de colaborações com artistas de diferentes gêneros, trazendo uma
+                    diversidade sonora que enriquece cada faixa. As letras de "Utopia" são introspectivas, revelando
+                    vulnerabilidades e anseios, enquanto a produção é repleta de texturas sonoras que criam uma
+                    experiência imersiva para o ouvinte.
+
+                    "Utopia" também se destaca visualmente, com uma estética vibrante que complementa a música,
+                    refletindo o estilo único de Travis. O álbum foi bem recebido tanto pelo público quanto pela
+                    crítica, reafirmando a posição de Travis Scott como um dos artistas mais inovadores da sua geração.
+                    Com "Utopia", Travis não apenas expande seu universo musical, mas também convida os ouvintes a uma
+                    jornada emocional e sonora única.
+                </p>
+            </div>
+    </article>
+
+    </main>
+
+
+    <footer>@2024 - Gabriel</footer>
+
+    <script src="/assets/js/script.js">
+
+    </script>
+
+</body>
+
+</html>
